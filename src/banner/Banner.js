@@ -1,4 +1,5 @@
 import React from "react";
+
 const Banner = () => {
   return (
     <div>
@@ -6,4 +7,5 @@ const Banner = () => {
     </div>
   );
 };
+
 export default Banner;

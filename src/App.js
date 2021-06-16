@@ -1,5 +1,5 @@
 import "./App.css";
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./header/Header";
 import Home from "./home/Home";
 import Footer from "./footer/Footer";
@@ -10,11 +10,11 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/" >
+          <Route exact path="/">
             <Home />
           </Route>
-          <Route  path="/about" >
-            <About/>
+          <Route path="/about">
+            <About />
           </Route>
         </Switch>
         <Footer />
@@ -22,4 +22,5 @@ function App() {
     </div>
   );
 }
+
 export default App;
